@@ -6,7 +6,7 @@ A civic platform built like Reddit where citizens can post, report, and track lo
 
 ---
 
-## 🚀 Overview
+## Overview
 The system enables:
 - Citizens to post suggestions and report existing problems in their locality
 - Other users to engage by commenting, upvoting, and replying
@@ -35,7 +35,7 @@ The app features a modular structure using Next.js, TypeScript, Tailwind CSS, an
 
 ---
 
-## 📁 Key Project Files and Configs (from ZIP)
+## Key Project Files and Configs (from ZIP)
 
 ### `package.json`
 Includes dependencies for UI, animation, form handling, and theming:
@@ -330,7 +330,7 @@ Theme values injected into Tailwind-compatible design system.
 
 ---
 
-## 🧩 Component & UI Logic (Detailed File Breakdown)
+##  Component & UI Logic (Detailed File Breakdown)
 
 ### `App.tsx`
 Bootstraps the main layout and providers. Sets up routes and global UI state.
@@ -370,7 +370,7 @@ All reusable parts styled via ShadCN + Tailwind:
 
 ---
 
-## 📦 Folder Structure
+## Folder Structure
 ```
 ├── app/                      → Core app routing/views
 │   ├── layout.tsx            → Theme + layout wrapper
@@ -394,7 +394,7 @@ All reusable parts styled via ShadCN + Tailwind:
 
 ---
 
-## 🧪 Local Setup Guide
+## Local Setup Guide
 
 ### Prerequisites:
 - Node.js (v18+), pnpm
@@ -439,27 +439,27 @@ Visit: `http://localhost:3000`
 
 ---
 
-## 🧩 Core Features Summary
+## Core Features Summary
 
 | Feature            | Status         | Notes                              |
 |--------------------|----------------|-------------------------------------|
-| Auth (email/pass)  | ✅ Working     | No admin role yet                   |
-| Post Suggestion    | ✅ Working     | With image and location             |
-| Report Problem     | ✅ UI Ready    | Bug in text input field             |
-| Upvote/Downvote    | ⚠️ Buggy       | No toggle feedback after click      |
-| Comment/Reply      | ✅ Working     | Comment threads are nested          |
-| Delete Post        | ✅ Working     | Only by author                      |
-| Edit Post          | ❌ Not Working | UI exists, no handler               |
-| Hot Tab            | ❌ Not Working | Planned with vote-sorting           |
-| Location Tab       | ❌ Not Working | To be implemented                   |
-| Contact Us         | ❌ Broken      | Non-functional form                 |
-| Report Comments    | ❌ Missing     | Placeholder only                    |
-| NSFW/Profanity     | ❌ Missing     | Planned (image + text censor)       |
-| Admin Panel        | ❌ Missing     | Future milestone                    |
+| Auth (email/pass)  |  Working     | No admin role yet                   |
+| Post Suggestion    |  Working     | With image and location             |
+| Report Problem     |  UI Ready    | Bug in text input field             |
+| Upvote/Downvote    | ⚠ Buggy       | No toggle feedback after click      |
+| Comment/Reply      | Working     | Comment threads are nested          |
+| Delete Post        |  Working     | Only by author                      |
+| Edit Post          |  Not Working | UI exists, no handler               |
+| Hot Tab            |  Not Working | Planned with vote-sorting           |
+| Location Tab       |  Not Working | To be implemented                   |
+| Contact Us         |  Broken      | Non-functional form                 |
+| Report Comments    |  Missing     | Placeholder only                    |
+| NSFW/Profanity     |  Missing     | Planned (image + text censor)       |
+| Admin Panel        |  Missing     | Future milestone                    |
 
 ---
 
-## 🧠 Future Roadmap
+##  Future Roadmap
 - Add working admin panel to manage suggestions
 - Sort by trending (Hot tab logic)
 - Integrate PAN/Aadhaar for secure ID
@@ -469,14 +469,14 @@ Visit: `http://localhost:3000`
 
 ---
 
-## 🧑‍💻 Team Curry Blasters
+##  Team Curry Blasters
 - Submission for: **AMUHACKS 4.0**
 - Track: **Smart City Development**
 - Contact: `curryblasters@gmail.com`
 - Phone: `1234567890`
-- GitHub Repo: _To be provided_
+- GitHub Repo: curry-blasters_AMUHACKS4.0
 
 ---
 
-## 📎 Final Note
+##  Final Note
 This platform was built from scratch under time constraints of a hackathon, but with vision for long-term impact. It emphasizes transparency, location awareness, and public participation in civic development — built for the citizens, by the citizens.
