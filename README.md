@@ -140,7 +140,7 @@ Includes dependencies for UI, animation, form handling, and theming:
     "dotenv-cli": "^8.0.0",
     "drizzle-kit": "^0.30.4",
     "esbuild": "^0.25.0",
-    "postcss": "^8.4.47",
+    "postcss": "^8.4.47", 
     "tailwindcss": "^3.4.14",
     "tsx": "^4.19.1",
     "typescript": "5.6.3",
